@@ -1,0 +1,25 @@
+a=[0 1 2 3 4; 0 1 2 4 6; 0 0 0 1 2];
+rank(a)
+
+ans =
+
+     2
+
+help rank
+ <strong>rank</strong>   Matrix rank.
+    <strong>rank</strong>(A) provides an estimate of the number of linearly
+    independent rows or columns of a matrix A.
+    <strong>rank</strong>(A,tol) is the number of singular values of A
+    that are larger than tol.
+    <strong>rank</strong>(A) uses the default tol = max(size(A)) * eps(norm(A)).
+ 
+    Class support for input A:
+       float: double, single
+
+    Overloaded methods:
+       <a href="matlab:help gf/rank">gf/rank</a>
+
+    Reference page in Help browser
+       <a href="matlab:doc rank">doc rank</a>
+
+diary off
