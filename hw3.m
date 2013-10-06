@@ -14,8 +14,14 @@ R = [1 3 0 5; 0 0 1 6; 0 0 0 0];
 %null(A)
 %null(A, 2)
 
-x1
-x2
-x3
+% eigenvectors
+%x1
+%x2
+%x3
+x = [0 0 0]
 
-lambda
+% eigenvalues
+%lambda1
+%lambda2
+%lambda3
+lambda = [0 0 0]
